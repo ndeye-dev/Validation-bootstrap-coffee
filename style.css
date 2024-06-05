@@ -1,0 +1,104 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.nav-item{
+    font-weight: bold;
+}
+#navbar {
+    padding: 14px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+.dropdown-menu:hover{
+    color: #b68834;
+}
+#header .navbar {
+    background: rgba(20, 2, 0, 0.76);
+    transition: all 0.5s;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+.header{
+    background-image: url(images/header-bg.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+}
+button[type=button]{
+    background-color: #fff;
+}
+.texte{
+    font-size: 60px;
+}
+/* about */
+.video-image{
+    background-image: url(images/video-bg.jpg);
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px;
+}
+/* coffee */
+.menu-card {
+    background-color: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.2);
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
+.coffee{
+    background-image: url(images/menu-bg.jpg);
+    background-size: cover;
+}
+.prix{
+    color: #b68834;
+    font-weight: bold;
+}
+/* review */
+.review{
+    background-color: #b68834;
+    color: #fff;
+}
+.checked{
+    color: orange;
+}
+.icon-star{
+    font-size: 10px;
+}
+/* blog */
+button[type=submit]:hover{
+    background-color: #b68834;
+    color: #fff;
+}
+.p{
+    color: #b68834;
+}
+footer{
+    background-image: url(images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    padding: 9rem;
+}
+.fa-brands:hover{
+    color: #b68834;
+}
+@media screen and (max-width:450px) {
+    .footer{
+        padding: 0;
+    }
+    
+}
+/* generic */
+.head{
+    background-color: #b68834;
+}
+.para{
+    padding: 10rem;
+}
+/* element  */
+
